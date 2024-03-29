@@ -1,0 +1,10 @@
+### Create person
+POST http://localhost:3000/api/people
+Content-Type: application/json
+
+{
+    "name": "Guilherme",
+    "email": "guilherme_tecnologia@outlook.com",
+    "document": "419.509.618-93",
+    "type": 0
+}
